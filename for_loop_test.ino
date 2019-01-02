@@ -48,7 +48,8 @@ if(button != HIGH){
   }   for (int w = 1; w <= 255; w = w + 5){
     analogWrite(redLedPin, e);
     analogWrite(blueLedPin, e);
-    e = e + 5;
+//    e = e + 5;
+      e+=5;
     delay(forwardLoop++);
     analogWrite(redLedPin, LOW);
     analogWrite(blueLedPin, LOW);
