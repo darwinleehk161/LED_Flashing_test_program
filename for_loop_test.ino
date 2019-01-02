@@ -5,6 +5,7 @@ Date:    2018-12-29
 Version: V1.0.0
 */
 
+#define RED_LED_PIN  10
 int redLedPin = 10; //declare Pin 10 as Red LED Pin
 int blueLedPin = 9; //declare Pin 9 as Blue LED Pin
 int redOnTime = 300; //Red LED On delay time
